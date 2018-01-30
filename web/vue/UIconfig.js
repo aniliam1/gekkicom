@@ -10,9 +10,9 @@ const CONFIG = {
         port: 3000,
     },
     ui: {
-        ssl: true,
+        ssl: false,
         host: 'gekkicom.herokuapp.com',
-        port: 443,
+        port: 80,
         path: '/' // change this if you are serving from something like `example.com/gekko`
     },
     adapter: 'sqlite'
