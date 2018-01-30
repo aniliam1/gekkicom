@@ -11,9 +11,9 @@ const CONFIG = {
     },
     ui: {
         ssl: true,
-        host: 'gekko.example.com',
+        host: 'gekkicom.herokuapp.com',
         port: 443,
-        path: 'gekkicom.herokuapp.com' // change this if you are serving from something like `example.com/gekko`
+        path: 'gekkicom.herokuapp.com/' // change this if you are serving from something like `example.com/gekko`
     },
     adapter: 'sqlite'
 }
